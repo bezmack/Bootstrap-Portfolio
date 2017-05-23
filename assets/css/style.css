@@ -5,6 +5,11 @@ body{
   background: url('../images/blue-bg.jpg');
   font-family: "Times New Roman", Times, serif;
 }
+
+[class*="col-"] {
+    margin-bottom: 15px;
+}
+
 .navbar{
     margin-bottom: 0px!important;
     background: #fff!important;
@@ -14,6 +19,9 @@ body{
 .navbar-brand {
     background: #4aaaa5;
     color: #fff!important;
+        height: 55px!important;
+    padding: 1em 2em!important;
+    font-weight: 700;
     }
 .navbar-default .navbar-brand:hover{
      background-color: #4aaaa5!important;
@@ -141,7 +149,7 @@ p.first-p {
 }
 
 .social-list ul>li img {
-    width: 79%;
+    width: 60%;
 }
 
 footer {
